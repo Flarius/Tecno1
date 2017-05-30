@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html  dir="ltr" lang="es" xml:lang="es">
+<head>
+    <title>Error</title>
+    <link rel="shortcut icon" href="http://colaboratorio3.org/plataforma/theme/image.php/bcu/theme/1486402881/favicon" />
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href='//fonts.googleapis.com/css?family=Droid+Sans:400,700' rel='stylesheet' type='text/css'>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="moodle, Error" />
+<script type="text/javascript">
+//<![CDATA[
+var M = {}; M.yui = {};
+M.pageloadstarttime = new Date();
+M.cfg = {"wwwroot":"http:\/\/colaboratorio3.org\/plataforma","sesskey":"x8h77SNKK9","loadingicon":"http:\/\/colaboratorio3.org\/plataforma\/theme\/image.php\/bcu\/core\/1486402881\/i\/loading_small","themerev":"1486402881","slasharguments":1,"theme":"bcu","jsrev":"1485895002","svgicons":true};var yui1ConfigFn = function(me) {if(/-skin|reset|fonts|grids|base/.test(me.name)){me.type='css';me.path=me.path.replace(/\.js/,'.css');me.path=me.path.replace(/\/yui2-skin/,'/assets/skins/sam/yui2-skin')}};
+var yui2ConfigFn = function(me) {var parts=me.name.replace(/^moodle-/,'').split('-'),component=parts.shift(),module=parts[0],min='-min';if(/-(skin|core)$/.test(me.name)){parts.pop();me.type='css';min=''};if(module){var filename=parts.join('-');me.path=component+'/'+module+'/'+filename+min+'.'+me.type}else me.path=component+'/'+component+'.'+me.type};
+YUI_config = {"debug":false,"base":"http:\/\/colaboratorio3.org\/plataforma\/lib\/yuilib\/3.17.2\/","comboBase":"http:\/\/colaboratorio3.org\/plataforma\/theme\/yui_combo.php?","combine":true,"filter":null,"insertBefore":"firstthemesheet","groups":{"yui2":{"base":"http:\/\/colaboratorio3.org\/plataforma\/lib\/yuilib\/2in3\/2.9.0\/build\/","comboBase":"http:\/\/colaboratorio3.org\/plataforma\/theme\/yui_combo.php?","combine":true,"ext":false,"root":"2in3\/2.9.0\/build\/","patterns":{"yui2-":{"group":"yui2","configFn":yui1ConfigFn}}},"moodle":{"name":"moodle","base":"http:\/\/colaboratorio3.org\/plataforma\/theme\/yui_combo.php?m\/1485895002\/","combine":true,"comboBase":"http:\/\/colaboratorio3.org\/plataforma\/theme\/yui_combo.php?","ext":false,"root":"m\/1485895002\/","patterns":{"moodle-":{"group":"moodle","configFn":yui2ConfigFn}},"filter":null,"modules":{"moodle-core-actionmenu":{"requires":["base","event","node-event-simulate"]},"moodle-core-blocks":{"requires":["base","node","io","dom","dd","dd-scroll","moodle-core-dragdrop","moodle-core-notification"]},"moodle-core-checknet":{"requires":["base-base","moodle-core-notification-alert","io-base"]},"moodle-core-chooserdialogue":{"requires":["base","panel","moodle-core-notification"]},"moodle-core-handlebars":{"condition":{"trigger":"handlebars","when":"after"}},"moodle-core-dragdrop":{"requires":["base","node","io","dom","dd","event-key","event-focus","moodle-core-notification"]},"moodle-core-formchangechecker":{"requires":["base","event-focus"]},"moodle-core-dock":{"requires":["base","node","event-custom","event-mouseenter","event-resize","escape","moodle-core-dock-loader"]},"moodle-core-dock-loader":{"requires":["escape"]},"moodle-core-tooltip":{"requires":["base","node","io-base","moodle-core-notification-dialogue","json-parse","widget-position","widget-position-align","event-outside","cache-base"]},"moodle-core-event":{"requires":["event-custom"]},"moodle-core-lockscroll":{"requires":["plugin","base-build"]},"moodle-core-formautosubmit":{"requires":["base","event-key"]},"moodle-core-popuphelp":{"requires":["moodle-core-tooltip"]},"moodle-core-notification":{"requires":["moodle-core-notification-dialogue","moodle-core-notification-alert","moodle-core-notification-confirm","moodle-core-notification-exception","moodle-core-notification-ajaxexception"]},"moodle-core-notification-dialogue":{"requires":["base","node","panel","escape","event-key","dd-plugin","moodle-core-widget-focusafterclose","moodle-core-lockscroll"]},"moodle-core-notification-alert":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-notification-confirm":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-notification-exception":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-notification-ajaxexception":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-maintenancemodetimer":{"requires":["base","node"]},"moodle-core_availability-form":{"requires":["base","node","event","panel","moodle-core-notification-dialogue","json"]},"moodle-backup-backupselectall":{"requires":["node","event","node-event-simulate","anim"]},"moodle-backup-confirmcancel":{"requires":["node","node-event-simulate","moodle-core-notification-confirm"]},"moodle-calendar-eventmanager":{"requires":["base","node","event-mouseenter","overlay","moodle-calendar-eventmanager-skin"]},"moodle-course-modchooser":{"requires":["moodle-core-chooserdialogue","moodle-course-coursebase"]},"moodle-course-dragdrop":{"requires":["base","node","io","dom","dd","dd-scroll","moodle-core-dragdrop","moodle-core-notification","moodle-course-coursebase","moodle-course-util"]},"moodle-course-toolboxes":{"requires":["node","base","event-key","node","io","moodle-course-coursebase","moodle-course-util"]},"moodle-course-util":{"requires":["node"],"use":["moodle-course-util-base"],"submodules":{"moodle-course-util-base":{},"moodle-course-util-section":{"requires":["node","moodle-course-util-base"]},"moodle-course-util-cm":{"requires":["node","moodle-course-util-base"]}}},"moodle-course-management":{"requires":["base","node","io-base","moodle-core-notification-exception","json-parse","dd-constrain","dd-proxy","dd-drop","dd-delegate","node-event-delegate"]},"moodle-course-categoryexpander":{"requires":["node","event-key"]},"moodle-course-formatchooser":{"requires":["base","node","node-event-simulate"]},"moodle-form-showadvanced":{"requires":["node","base","selector-css3"]},"moodle-form-passwordunmask":{"requires":["node","base"]},"moodle-form-shortforms":{"requires":["node","base","selector-css3","moodle-core-event"]},"moodle-form-dateselector":{"requires":["base","node","overlay","calendar"]},"moodle-question-qbankmanager":{"requires":["node","selector-css3"]},"moodle-question-preview":{"requires":["base","dom","event-delegate","event-key","core_question_engine"]},"moodle-question-chooser":{"requires":["moodle-core-chooserdialogue"]},"moodle-question-searchform":{"requires":["base","node"]},"moodle-availability_completion-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_date-form":{"requires":["base","node","event","io","moodle-core_availability-form"]},"moodle-availability_grade-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_group-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_grouping-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_profile-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-mod_assign-history":{"requires":["node","transition"]},"moodle-mod_forum-subscriptiontoggle":{"requires":["base-base","io-base"]},"moodle-mod_quiz-quizquestionbank":{"requires":["base","event","node","io","io-form","yui-later","moodle-question-qbankmanager","moodle-core-notification-dialogue"]},"moodle-mod_quiz-quizbase":{"requires":["base","node"]},"moodle-mod_quiz-dragdrop":{"requires":["base","node","io","dom","dd","dd-scroll","moodle-core-dragdrop","moodle-core-notification","moodle-mod_quiz-quizbase","moodle-mod_quiz-util-base","moodle-mod_quiz-util-page","moodle-mod_quiz-util-slot","moodle-course-util"]},"moodle-mod_quiz-randomquestion":{"requires":["base","event","node","io","moodle-core-notification-dialogue"]},"moodle-mod_quiz-questionchooser":{"requires":["moodle-core-chooserdialogue","moodle-mod_quiz-util","querystring-parse"]},"moodle-mod_quiz-toolboxes":{"requires":["base","node","event","event-key","io","moodle-mod_quiz-quizbase","moodle-mod_quiz-util-slot","moodle-core-notification-ajaxexception"]},"moodle-mod_quiz-util":{"requires":["node"],"use":["moodle-mod_quiz-util-base"],"submodules":{"moodle-mod_quiz-util-base":{},"moodle-mod_quiz-util-slot":{"requires":["node","moodle-mod_quiz-util-base"]},"moodle-mod_quiz-util-page":{"requires":["node","moodle-mod_quiz-util-base"]}}},"moodle-mod_quiz-modform":{"requires":["base","node","event"]},"moodle-mod_quiz-repaginate":{"requires":["base","event","node","io","moodle-core-notification-dialogue"]},"moodle-mod_quiz-autosave":{"requires":["base","node","event","event-valuechange","node-event-delegate","io-form"]},"moodle-message_airnotifier-toolboxes":{"requires":["base","node","io"]},"moodle-block_navigation-navigation":{"requires":["base","io-base","node","event-synthetic","event-delegate","json-parse"]},"moodle-filter_glossary-autolinker":{"requires":["base","node","io-base","json-parse","event-delegate","overlay","moodle-core-event","moodle-core-notification-alert","moodle-core-notification-exception","moodle-core-notification-ajaxexception"]},"moodle-filter_mathjaxloader-loader":{"requires":["moodle-core-event"]},"moodle-editor_atto-rangy":{"requires":[]},"moodle-editor_atto-editor":{"requires":["node","transition","io","overlay","escape","event","event-simulate","event-custom","node-event-html5","yui-throttle","moodle-core-notification-dialogue","moodle-core-notification-confirm","moodle-editor_atto-rangy","handlebars","timers"]},"moodle-editor_atto-plugin":{"requires":["node","base","escape","event","event-outside","handlebars","event-custom","timers"]},"moodle-editor_atto-menu":{"requires":["moodle-core-notification-dialogue","node","event","event-custom"]},"moodle-report_eventlist-eventfilter":{"requires":["base","event","node","node-event-delegate","datatable","autocomplete","autocomplete-filters"]},"moodle-report_loglive-fetchlogs":{"requires":["base","event","node","io","node-event-delegate"]},"moodle-gradereport_grader-gradereporttable":{"requires":["base","node","event","handlebars","overlay","event-hover"]},"moodle-gradereport_history-userselector":{"requires":["escape","event-delegate","event-key","handlebars","io-base","json-parse","moodle-core-notification-dialogue"]},"moodle-tool_capability-search":{"requires":["base","node"]},"moodle-tool_monitor-dropdown":{"requires":["base","event","node"]},"moodle-theme_bootstrap-zoom":{"requires":["node"]},"moodle-theme_bootstrap-bootstrap":{"requires":["node","selector-css3"]},"moodle-theme_bootstrapbase-bootstrap":{"requires":["node","selector-css3"]},"moodle-assignfeedback_editpdf-editor":{"requires":["base","event","node","io","graphics","json","event-move","event-resize","querystring-stringify-simple","moodle-core-notification-dialog","moodle-core-notification-exception","moodle-core-notification-ajaxexception"]},"moodle-atto_accessibilitychecker-button":{"requires":["color-base","moodle-editor_atto-plugin"]},"moodle-atto_accessibilityhelper-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_align-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_bold-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_charmap-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_clear-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_collapse-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_emoticon-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_equation-button":{"requires":["moodle-editor_atto-plugin","moodle-core-event","io","event-valuechange","tabview","array-extras"]},"moodle-atto_html-button":{"requires":["moodle-editor_atto-plugin","event-valuechange"]},"moodle-atto_image-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_indent-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_italic-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_link-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_managefiles-usedfiles":{"requires":["node","escape"]},"moodle-atto_managefiles-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_media-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_noautolink-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_orderedlist-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_rtl-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_strike-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_subscript-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_superscript-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_table-button":{"requires":["moodle-editor_atto-plugin","moodle-editor_atto-menu","event","event-valuechange"]},"moodle-atto_title-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_underline-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_undo-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_unorderedlist-button":{"requires":["moodle-editor_atto-plugin"]}}},"gallery":{"name":"gallery","base":"http:\/\/colaboratorio3.org\/plataforma\/lib\/yuilib\/gallery\/","combine":true,"comboBase":"http:\/\/colaboratorio3.org\/plataforma\/theme\/yui_combo.php?","ext":false,"root":"gallery\/1485895002\/","patterns":{"gallery-":{"group":"gallery"}}}},"modules":{"core_filepicker":{"name":"core_filepicker","fullpath":"http:\/\/colaboratorio3.org\/plataforma\/lib\/javascript.php\/1485895002\/repository\/filepicker.js","requires":["base","node","node-event-simulate","json","async-queue","io-base","io-upload-iframe","io-form","yui2-treeview","panel","cookie","datatable","datatable-sort","resize-plugin","dd-plugin","escape","moodle-core_filepicker"]}}};
+M.yui.loader = {modules: {}};
+
+//]]>
+</script>
+<link rel="stylesheet" type="text/css" href="http://colaboratorio3.org/plataforma/theme/yui_combo.php?rollup/3.17.2/yui-moodlesimple-min.css" /><script type="text/javascript" src="http://colaboratorio3.org/plataforma/theme/yui_combo.php?rollup/3.17.2/yui-moodlesimple-min.js&amp;rollup/1485895002/mcore-min.js"></script><script type="text/javascript" src="http://colaboratorio3.org/plataforma/theme/jquery.php/core/jquery-1.11.1.min.js"></script>
+<script type="text/javascript" src="http://colaboratorio3.org/plataforma/theme/jquery.php/theme_bcu/bootstrap-min.js"></script>
+<script type="text/javascript" src="http://colaboratorio3.org/plataforma/theme/jquery.php/theme_bcu/jquery-flexslider-min.js"></script>
+<script type="text/javascript" src="http://colaboratorio3.org/plataforma/theme/jquery.php/theme_bcu/jquery-easing-min.js"></script>
+<script type="text/javascript" src="http://colaboratorio3.org/plataforma/theme/jquery.php/theme_bcu/custom.js"></script>
+<script id="firstthemesheet" type="text/css">/** Required in order to fix style inclusion problems in IE with YUI **/</script><link rel="stylesheet" type="text/css" href="http://colaboratorio3.org/plataforma/theme/styles.php/bcu/1486402881/all" />
+<script type="text/javascript" src="http://colaboratorio3.org/plataforma/lib/javascript.php/1485895002/lib/javascript-static.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body  id="page-site-index" class="format-onetopic course path-site safari dir-ltr lang-es yui-skin-sam yui3-skin-sam colaboratorio3-org--plataforma pagelayout-incourse course-13 context-1961 cmid-506 category-4 two-column  has-region-side-post used-region-side-post">
+
+<div class="skiplinks"><a class="skip" href="#maincontent">Salta al contenido principal</a></div>
+<script type="text/javascript">
+//<![CDATA[
+document.body.className += ' jsenabled';
+//]]>
+</script>
+
+<div id="page" class="container-fluid ">
+    
+
+<header id="page-header-wrapper" >
+    <div id="above-header">
+        <div class="clearfix container userhead">
+            <div class="pull-left">
+                <ul class="usermenu2 nav navbar-nav navbar-right"><li><a title="Mensajes" href="http://colaboratorio3.org/plataforma/message/index.php"><i class="fa fa-comments"> </i>Mensajes</a></li></ul> 
+            </div>
+            <div class="headermenu row">
+                                    <div class="dropdown secondone">
+                        <a class="dropdown-toggle usermendrop" data-toggle="dropdown" data-target=".secondone"><span class="fa fa-user"></span>pedro gonzalez chavez <span class="fa fa-angle-down"></span></a>
+                        <ul class="dropdown-menu usermen" role="menu">
+                                                                                        <li><a href="http://colaboratorio3.org/plataforma/user/profile.php" title="View profile"><i class="fa fa-user"></i>Ver perfil</a></li>
+                                                                                        <li><a href="http://colaboratorio3.org/plataforma/user/edit.php" title="Edit profile"><i class="fa fa-cog"></i>Editar perfil</a></li>
+                                                                                                                                            <li><a href="http://colaboratorio3.org/plataforma/login/logout.php" title="Log out"><i class="fa fa-lock"></i>Salir</a></li>
+                        </ul>
+                    </div>
+                            </div>      
+        </div>
+    </div>
+    <div id="page-header" class="clearfix container">
+                    <a href="http://colaboratorio3.org/plataforma"><img src='//colaboratorio3.org/plataforma/pluginfile.php/1/theme_bcu/logo/1486402881/brain2.png' alt='logo' id='logo' /></a>     
+   
+         <div id="coursetitle" class="pull-left">
+     <span title='TecnoM1 - 2017'>TecnoM1 - 2017</span>
+     </div>
+     
+        <div class="searchbox">
+            <form action="http://colaboratorio3.org/plataforma/course/search.php">
+                <label class="hidden" for="search-1" style="display: none;">Search iCity</label>
+                <div class="search-box grey-box bg-white clear-fix">
+                    <input placeholder="Buscar cursos" accesskey="6" class="search_tour bg-white no-border left search-box__input ui-autocomplete-input" type="text" name="search" id="search-1" autocomplete="off">
+                    <button type="submit" class="no-border bg-white pas search-box__button"><abbr class="fa fa-search"></abbr></button>
+                </div>
+            </form>
+        </div>
+                  
+        <div id="course-header">
+                    </div>
+    </div>
+
+
+    <div id="navwrap">
+        <div class="container">
+            <div class="navbar">
+                <nav role="navigation" class="navbar-inner">
+                    <div class="container-fluid">
+                        <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </a>
+                        <div class="nav-collapse collapse ">
+                            <ul class="nav"><li><a title="Página Principal" href="http://colaboratorio3.org/plataforma/"><i class="fa fa-home"></i> Página Principal</a></li><li><a title="Área personal" href="http://colaboratorio3.org/plataforma/my/index.php"><i class="fa fa-dashboard"></i> Área personal</a></li><li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" title="Curso actual"><i class="fa fa-sitemap"></i><span class="menutitle">Curso actual</span></a><ul class="dropdown-menu"><li><a title="People" href="http://colaboratorio3.org/plataforma/user/index.php?id=13"><i class="fa fa-users"></i>People</a></li><li><a title="Calificaciones" href="http://colaboratorio3.org/plataforma/grade/report/index.php?id=13"><img class="icon" alt="" title="" src="http://colaboratorio3.org/plataforma/theme/image.php/bcu/core/1486402881/i/grades" />Calificaciones</a></li><li><a href="http://colaboratorio3.org/plataforma/mod/forum/index.php?id=13"><img src="http://colaboratorio3.org/plataforma/theme/image.php/bcu/forum/1486402881/icon" class="icon" alt="" />Foros</a></li><li><a href="http://colaboratorio3.org/plataforma/course/resources.php?id=13"><img class="icon" alt="" title="" src="http://colaboratorio3.org/plataforma/theme/image.php/bcu/mod_page/1486402881/icon" />Recursos</a></li></ul></ul>                                                        
+                            <ul class="nav pull-right">
+                                                                <li class="hbl"><a href="#" class="moodlezoom"><i class="fa fa-indent fa-lg"></i> <span class="zoomdesc">Ocultar bloques</span></a></li>
+                                <li class="sbl"><a href="#" class="moodlezoom"><i class="fa fa-outdent fa-lg"></i> <span class="zoomdesc">Mostrar bloques</span></a></li>
+                                <li class="hbll"><a href="#" class="moodlewidth"><i class="fa fa-expand fa-lg"></i> <span class="zoomdesc">Pantalla completa</span></a></li>
+                                <li class="sbll"><a href="#" class="moodlewidth"><i class="fa fa-compress fa-lg"></i> <span class="zoomdesc">Vista estándar</span></a></li>
+                            </ul>
+                            <div id="edittingbutton" class="pull-right breadcrumb-button"></div>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </div>
+</header>
+<div class="container outercont">
+    <div id="page-content" class="row-fluid">
+    <div id="page-navbar" class="span12">
+        <span class="accesshide">Ruta a la página</span><ul class="breadcrumb"><li><a href="http://colaboratorio3.org/plataforma/">Página Principal</a> <span class="divider">/</span></li><li><a title="TecnoM1 - 2017" href="http://colaboratorio3.org/plataforma/course/view.php?id=13">tm1-17</a> <span class="divider">/</span></li><li><a href="http://colaboratorio3.org/plataforma/course/view.php?id=13&amp;section=6">TP#3</a> <span class="divider">/</span></li><li><a title="Archivo" href="http://colaboratorio3.org/plataforma/mod/resource/view.php?id=506" id="action_link591c90bb95fa64">TP #3 - Ejercicios (Variables)</a></li></ul>    </div>
+                <section id="region-main" class="span9 desktop-first-column ">
+            <div role="main"><span id="maincontent"></span><div data-rel="fatalerror" class="box errorbox"><p class="errormessage">Lo sentimos, el archivo solicitado no se encuentra</p><p class="errorcode"><a href="http://docs.moodle.org/28/es/error/moodle/filenotfound">Más información sobre este error</a></p></div><div class="continuebutton"><form method="get" action="http://colaboratorio3.org/plataforma/course/view.php"><div><input type="submit" value="Continuar" /><input type="hidden" name="id" value="13" /></div></form></div></div>        </section>
+        <aside id="block-region-side-post" class="span3 block-region" data-blockregion="side-post" data-droptarget="1"><a href="#sb-1" class="skip-block">Salta Navegación</a><div id="inst4" class="block_navigation  block" role="navigation" data-block="navigation" data-instanceid="4" aria-labelledby="instance-4-header"><div class="header"><div class="title"><div class="block_action"></div><h2 id="instance-4-header">Navegación</h2></div></div><div class="content"><ul class="block_tree list"><li class="type_unknown depth_1 contains_branch" aria-expanded="true"><p class="tree_item branch canexpand navigation_node"><a href="http://colaboratorio3.org/plataforma/">Página Principal</a></p><ul><li class="type_setting depth_2 item_with_icon"><p class="tree_item leaf hasicon"><a href="http://colaboratorio3.org/plataforma/my/"><img alt="" class="smallicon navicon" title="" src="http://colaboratorio3.org/plataforma/theme/image.php/bcu/core/1486402881/i/navigationitem" />Área personal</a></p></li>
+<li class="type_course depth_2 collapsed contains_branch" aria-expanded="false"><p class="tree_item branch"><span title="#colaboratorio3" tabindex="0">Páginas del sitio</span></p><ul><li class="type_custom depth_3 item_with_icon"><p class="tree_item leaf hasicon"><a href="http://colaboratorio3.org/plataforma/user/index.php?id=1"><img alt="" class="smallicon navicon" title="" src="http://colaboratorio3.org/plataforma/theme/image.php/bcu/core/1486402881/i/navigationitem" />Participantes</a></p></li>
+<li class="type_custom depth_3 item_with_icon"><p class="tree_item leaf hasicon"><a href="http://colaboratorio3.org/plataforma/blog/index.php?courseid=0"><img alt="" class="smallicon navicon" title="" src="http://colaboratorio3.org/plataforma/theme/image.php/bcu/core/1486402881/i/navigationitem" />Blogs del sitio</a></p></li>
+<li class="type_custom depth_3 item_with_icon"><p class="tree_item leaf hasicon"><a href="http://colaboratorio3.org/plataforma/badges/view.php?type=1"><img alt="" class="smallicon navicon" title="" src="http://colaboratorio3.org/plataforma/theme/image.php/bcu/core/1486402881/i/navigationitem" />Insignias del sitio</a></p></li>
+<li class="type_custom depth_3 item_with_icon"><p class="tree_item leaf hasicon"><a href="http://colaboratorio3.org/plataforma/tag/search.php"><img alt="" class="smallicon navicon" title="" src="http://colaboratorio3.org/plataforma/theme/image.php/bcu/core/1486402881/i/navigationitem" />Marcas</a></p></li>
+<li class="type_custom depth_3 item_with_icon"><p class="tree_item leaf hasicon"><a href="http://colaboratorio3.org/plataforma/calendar/view.php?view=month"><img alt="" class="smallicon navicon" title="" src="http://colaboratorio3.org/plataforma/theme/image.php/bcu/core/1486402881/i/navigationitem" />Calendario</a></p></li></ul></li>
+<li class="type_user depth_2 collapsed contains_branch" aria-expanded="false"><p class="tree_item branch"><span tabindex="0">Mi perfil</span></p><ul><li class="type_custom depth_3 item_with_icon"><p class="tree_item leaf hasicon"><a href="http://colaboratorio3.org/plataforma/user/profile.php?id=846"><img alt="" class="smallicon navicon" title="" src="http://colaboratorio3.org/plataforma/theme/image.php/bcu/core/1486402881/i/navigationitem" />Ver perfil</a></p></li>
+<li class="type_unknown depth_3 collapsed contains_branch" aria-expanded="false"><p class="tree_item branch"><span tabindex="0">Blogs</span></p><ul><li class="type_custom depth_4 item_with_icon"><p class="tree_item leaf hasicon"><a href="http://colaboratorio3.org/plataforma/blog/index.php?userid=846"><img alt="" class="smallicon navicon" title="" src="http://colaboratorio3.org/plataforma/theme/image.php/bcu/core/1486402881/i/navigationitem" />Ver todas mis entradas</a></p></li>
+<li class="type_custom depth_4 item_with_icon"><p class="tree_item leaf hasicon"><a href="http://colaboratorio3.org/plataforma/blog/edit.php?action=add"><img alt="" class="smallicon navicon" title="" src="http://colaboratorio3.org/plataforma/theme/image.php/bcu/core/1486402881/i/navigationitem" />Añadir una nueva entrada</a></p></li></ul></li>
+<li class="type_setting depth_3 item_with_icon"><p class="tree_item leaf hasicon"><a href="http://colaboratorio3.org/plataforma/message/index.php?user1=846"><img alt="" class="smallicon navicon" title="" src="http://colaboratorio3.org/plataforma/theme/image.php/bcu/core/1486402881/i/navigationitem" />Mensajes</a></p></li>
+<li class="type_setting depth_3 item_with_icon"><p class="tree_item leaf hasicon"><a href="http://colaboratorio3.org/plataforma/user/files.php"><img alt="" class="smallicon navicon" title="" src="http://colaboratorio3.org/plataforma/theme/image.php/bcu/core/1486402881/i/navigationitem" />Mis archivos privados</a></p></li>
+<li class="type_setting depth_3 item_with_icon"><p class="tree_item leaf hasicon"><a href="http://colaboratorio3.org/plataforma/badges/mybadges.php"><img alt="" class="smallicon navicon" title="" src="http://colaboratorio3.org/plataforma/theme/image.php/bcu/core/1486402881/i/navigationitem" />Mis insignias</a></p></li></ul></li>
+<li class="type_system depth_2 contains_branch" aria-expanded="true"><p class="tree_item branch"><span tabindex="0">Curso actual</span></p><ul><li class="type_course depth_3 contains_branch" aria-expanded="true"><p class="tree_item branch canexpand"><a title="TecnoM1 - 2017" href="http://colaboratorio3.org/plataforma/course/view.php?id=13">tm1-17</a></p><ul><li class="type_unknown depth_4 collapsed contains_branch" aria-expanded="false"><p class="tree_item branch"><a href="http://colaboratorio3.org/plataforma/user/index.php?id=13">Participantes</a></p><ul><li class="type_custom depth_5 item_with_icon"><p class="tree_item leaf hasicon"><a href="http://colaboratorio3.org/plataforma/blog/index.php?courseid=13"><img alt="" class="smallicon navicon" title="" src="http://colaboratorio3.org/plataforma/theme/image.php/bcu/core/1486402881/i/navigationitem" />Blogs de curso</a></p></li>
+<li class="type_user depth_5 collapsed contains_branch" aria-expanded="false"><p class="tree_item branch"><a href="http://colaboratorio3.org/plataforma/user/view.php?id=846&amp;course=13">pedro gonzalez chavez</a></p><ul><li class="type_custom depth_6 item_with_icon"><p class="tree_item leaf hasicon"><a href="http://colaboratorio3.org/plataforma/user/view.php?id=846&amp;course=13"><img alt="" class="smallicon navicon" title="" src="http://colaboratorio3.org/plataforma/theme/image.php/bcu/core/1486402881/i/navigationitem" />Ver perfil</a></p></li>
+<li class="type_unknown depth_6 collapsed contains_branch" aria-expanded="false"><p class="tree_item branch"><span tabindex="0">Blogs</span></p><ul><li class="type_custom depth_7 item_with_icon"><p class="tree_item leaf hasicon"><a href="http://colaboratorio3.org/plataforma/blog/index.php?userid=846"><img alt="" class="smallicon navicon" title="" src="http://colaboratorio3.org/plataforma/theme/image.php/bcu/core/1486402881/i/navigationitem" />Ver todas mis entradas</a></p></li>
+<li class="type_custom depth_7 item_with_icon"><p class="tree_item leaf hasicon"><a href="http://colaboratorio3.org/plataforma/blog/edit.php?action=add"><img alt="" class="smallicon navicon" title="" src="http://colaboratorio3.org/plataforma/theme/image.php/bcu/core/1486402881/i/navigationitem" />Añadir una nueva entrada</a></p></li></ul></li>
+<li class="type_setting depth_6 item_with_icon"><p class="tree_item leaf hasicon"><a href="http://colaboratorio3.org/plataforma/message/index.php?user1=846&amp;viewing=course_13"><img alt="" class="smallicon navicon" title="" src="http://colaboratorio3.org/plataforma/theme/image.php/bcu/core/1486402881/i/navigationitem" />Mensajes</a></p></li>
+<li class="type_setting depth_6 item_with_icon"><p class="tree_item leaf hasicon"><a href="http://colaboratorio3.org/plataforma/badges/mybadges.php"><img alt="" class="smallicon navicon" title="" src="http://colaboratorio3.org/plataforma/theme/image.php/bcu/core/1486402881/i/navigationitem" />Mis insignias</a></p></li></ul></li></ul></li>
+<li class="type_unknown depth_4 collapsed contains_branch" aria-expanded="false"><p class="tree_item branch"><span tabindex="0">Insignias</span></p><ul><li class="type_setting depth_5 item_with_icon"><p class="tree_item leaf hasicon"><a href="http://colaboratorio3.org/plataforma/badges/view.php?type=2&amp;id=13"><img alt="Insignias de curso" class="smallicon navicon" title="Insignias de curso" src="http://colaboratorio3.org/plataforma/theme/image.php/bcu/core/1486402881/i/badge" />Insignias de curso</a></p></li></ul></li>
+<li class="type_structure depth_4 collapsed contains_branch" aria-expanded="false"><p class="tree_item branch" id="expandable_branch_30_125"><a href="http://colaboratorio3.org/plataforma/course/view.php?id=13&amp;section=0">Portada</a></p></li>
+<li class="type_structure depth_4 collapsed contains_branch" aria-expanded="false"><p class="tree_item branch" id="expandable_branch_30_126"><a href="http://colaboratorio3.org/plataforma/course/view.php?id=13&amp;section=1">PROCESSING</a></p></li>
+<li class="type_structure depth_4 collapsed contains_branch" aria-expanded="false"><p class="tree_item branch" id="expandable_branch_30_128"><a href="http://colaboratorio3.org/plataforma/course/view.php?id=13&amp;section=2">Teóricos</a></p></li>
+<li class="type_structure depth_4 collapsed contains_branch" aria-expanded="false"><p class="tree_item branch" id="expandable_branch_30_130"><a href="http://colaboratorio3.org/plataforma/course/view.php?id=13&amp;section=3">FOROS</a></p></li>
+<li class="type_structure depth_4 collapsed contains_branch" aria-expanded="false"><p class="tree_item branch" id="expandable_branch_30_127"><a href="http://colaboratorio3.org/plataforma/course/view.php?id=13&amp;section=4">TP#1</a></p></li>
+<li class="type_structure depth_4 collapsed contains_branch" aria-expanded="false"><p class="tree_item branch" id="expandable_branch_30_129"><a href="http://colaboratorio3.org/plataforma/course/view.php?id=13&amp;section=5">TP#2</a></p></li>
+<li class="type_structure depth_4 contains_branch" aria-expanded="true"><p class="tree_item branch"><a href="http://colaboratorio3.org/plataforma/course/view.php?id=13&amp;section=6">TP#3</a></p><ul><li class="type_activity depth_5 item_with_icon current_branch"><p class="tree_item leaf hasicon active_tree_node"><a title="Archivo" href="http://colaboratorio3.org/plataforma/mod/resource/view.php?id=506" id="action_link591c90bb95fa62"><img alt="Archivo" class="smallicon navicon" title="Archivo" src="http://colaboratorio3.org/plataforma/theme/image.php/bcu/core/1486402881/f/html-24" /><span class="item-content-wrap">TP #3 - Ejercicios (Variables)</span></a></p></li>
+<li class="type_activity depth_5 item_with_icon"><p class="tree_item leaf hasicon"><a title="URL" href="http://colaboratorio3.org/plataforma/mod/url/view.php?id=492"><img alt="URL" class="smallicon navicon" title="URL" src="http://colaboratorio3.org/plataforma/theme/image.php/bcu/core/1486402881/f/pdf-24" />Aleatoriedad</a></p></li>
+<li class="type_activity depth_5 item_with_icon"><p class="tree_item leaf hasicon"><a title="URL" href="http://colaboratorio3.org/plataforma/mod/url/view.php?id=493"><img alt="URL" class="smallicon navicon" title="URL" src="http://colaboratorio3.org/plataforma/theme/image.php/bcu/core/1486402881/f/pdf-24" />Funciones Artiméticas</a></p></li>
+<li class="type_activity depth_5 item_with_icon"><p class="tree_item leaf hasicon"><a title="URL" href="http://colaboratorio3.org/plataforma/mod/url/view.php?id=494"><img alt="URL" class="smallicon navicon" title="URL" src="http://colaboratorio3.org/plataforma/theme/image.php/bcu/core/1486402881/f/pdf-24" />Strings</a></p></li>
+<li class="type_activity depth_5 item_with_icon"><p class="tree_item leaf hasicon"><a title="URL" href="http://colaboratorio3.org/plataforma/mod/url/view.php?id=495"><img alt="URL" class="smallicon navicon" title="URL" src="http://colaboratorio3.org/plataforma/theme/image.php/bcu/core/1486402881/f/pdf-24" />Variables</a></p></li></ul></li></ul></li></ul></li>
+<li class="type_system depth_2 collapsed contains_branch" aria-expanded="false"><p class="tree_item branch" id="expandable_branch_0_mycourses"><a href="http://colaboratorio3.org/plataforma/my/">Mis cursos</a></p></li></ul></li></ul></div></div><span id="sb-1" class="skip-block-to"></span><a href="#sb-2" class="skip-block">Salta Administración</a><div id="inst5" class="block_settings  block" role="navigation" data-block="settings" data-instanceid="5" aria-labelledby="instance-5-header"><div class="header"><div class="title"><div class="block_action"></div><h2 id="instance-5-header">Administración</h2></div></div><div class="content"><div id="settingsnav" class="box block_tree_box"><ul class="block_tree list"><li class="type_course collapsed contains_branch" aria-expanded="false"><p class="tree_item branch root_node"><span tabindex="0">Administración del curso</span></p><ul><li class="type_setting collapsed item_with_icon"><p class="tree_item leaf"><a href="http://colaboratorio3.org/plataforma/enrol/self/unenrolself.php?enrolid=34"><img alt="" class="smallicon navicon" title="" src="http://colaboratorio3.org/plataforma/theme/image.php/bcu/core/1486402881/i/user" />Darme de baja en tm1-17</a></p></li></ul></li>
+<li class="type_unknown collapsed contains_branch" aria-expanded="false"><hr /><p class="tree_item branch root_node" id="usersettings"><span tabindex="0">Ajustes de mi perfil</span></p><ul><li class="type_setting collapsed item_with_icon"><p class="tree_item leaf"><a href="http://colaboratorio3.org/plataforma/user/edit.php?id=846&amp;course=13"><img alt="" class="smallicon navicon" title="" src="http://colaboratorio3.org/plataforma/theme/image.php/bcu/core/1486402881/i/navigationitem" />Editar perfil</a></p></li>
+<li class="type_setting collapsed item_with_icon"><p class="tree_item leaf"><a href="http://colaboratorio3.org/plataforma/login/change_password.php?id=13"><img alt="" class="smallicon navicon" title="" src="http://colaboratorio3.org/plataforma/theme/image.php/bcu/core/1486402881/i/navigationitem" />Cambiar contraseña</a></p></li>
+<li class="type_setting collapsed item_with_icon"><p class="tree_item leaf"><a href="http://colaboratorio3.org/plataforma/message/edit.php?id=846"><img alt="" class="smallicon navicon" title="" src="http://colaboratorio3.org/plataforma/theme/image.php/bcu/core/1486402881/i/navigationitem" />Mensajería</a></p></li>
+<li class="type_unknown collapsed contains_branch" aria-expanded="false"><p class="tree_item branch"><span tabindex="0">Blogs</span></p><ul><li class="type_setting collapsed item_with_icon"><p class="tree_item leaf"><a href="http://colaboratorio3.org/plataforma/blog/preferences.php"><img alt="" class="smallicon navicon" title="" src="http://colaboratorio3.org/plataforma/theme/image.php/bcu/core/1486402881/i/navigationitem" />Preferencias</a></p></li>
+<li class="type_setting collapsed item_with_icon"><p class="tree_item leaf"><a href="http://colaboratorio3.org/plataforma/blog/external_blogs.php"><img alt="" class="smallicon navicon" title="" src="http://colaboratorio3.org/plataforma/theme/image.php/bcu/core/1486402881/i/navigationitem" />Blogs externos</a></p></li>
+<li class="type_setting collapsed item_with_icon"><p class="tree_item leaf"><a href="http://colaboratorio3.org/plataforma/blog/external_blog_edit.php"><img alt="" class="smallicon navicon" title="" src="http://colaboratorio3.org/plataforma/theme/image.php/bcu/core/1486402881/i/navigationitem" />Registrar un blog externo</a></p></li></ul></li>
+<li class="type_unknown collapsed contains_branch" aria-expanded="false"><p class="tree_item branch"><span tabindex="0">Insignias</span></p><ul><li class="type_setting collapsed item_with_icon"><p class="tree_item leaf"><a href="http://colaboratorio3.org/plataforma/badges/preferences.php"><img alt="" class="smallicon navicon" title="" src="http://colaboratorio3.org/plataforma/theme/image.php/bcu/core/1486402881/i/navigationitem" />Preferencias</a></p></li>
+<li class="type_setting collapsed item_with_icon"><p class="tree_item leaf"><a href="http://colaboratorio3.org/plataforma/badges/mybackpack.php"><img alt="" class="smallicon navicon" title="" src="http://colaboratorio3.org/plataforma/theme/image.php/bcu/core/1486402881/i/navigationitem" />Configuración de la mochila</a></p></li></ul></li></ul></li></ul></div></div></div><span id="sb-2" class="skip-block-to"></span></aside>    </div>
+    </div>
+
+    
+<footer id="page-footer">
+    <div id="course-footer"></div>
+        <div class="container">
+        <div class="row-fluid">
+                        <div class="left-col span3" id="contactdetails">
+                <h3 title=""></h3>
+                <p>Plataforma virtual del <b>Departamento de multimedia</b><br /></p>            </div>
+                                    <div class="left-col span3" id="footer-faculties">
+                <h3 title=""></h3>
+                <p><b>Facultad de Bellas Artes</b>,<br />Universidad Nacional de La Plata</p>            </div>
+                                    <div class="left-col span3" id="social-connect">
+                <h3 title=""></h3>
+                <b>Contacto</b><br /><p>entorno3(arroba)gmail(punto)com</p>            </div>
+                                    <div class="left-col span3">
+                <h3 title=""></h3>
+                <p>Coordinación<br /><b>Christian Silva</b></p>            </div>
+                    </div>
+    </div>
+            <div class="info container2 clearfix">
+        <div class="container">
+            <div class="row-fluid">
+                <div class="span3">
+                                    </div>
+                <div class="span6 helplink">
+                                    </div>
+                <div class="span3">
+                                    </div>
+            </div>
+        </div>
+    </div>
+    </footer>
+<a class="back-to-top" href="#top" ><i class="fa fa-angle-up "></i></a>
+    <script type="text/javascript">
+//<![CDATA[
+M.yui.add_module({"mathjax":{"name":"mathjax","fullpath":"http:\/\/cdn.mathjax.org\/mathjax\/2.3-latest\/MathJax.js?delayStartupUntil=configured"}});
+
+//]]>
+</script>
+<script type="text/javascript" src="http://colaboratorio3.org/plataforma/theme/javascript.php/bcu/1486402881/footer"></script>
+<script type="text/javascript">
+//<![CDATA[
+M.str = {"moodle":{"lastmodified":"\u00daltima modificaci\u00f3n","name":"Nombre","error":"Error","info":"Informaci\u00f3n","viewallcourses":"Ver todos los cursos","morehelp":"M\u00e1s ayuda","loadinghelp":"Cargando...","cancel":"Cancelar","yes":"S\u00ed","confirm":"Confirmar","no":"No","areyousure":"\u00bfEst\u00e0 seguro?","closebuttontitle":"Cerrar","unknownerror":"Error desconocido"},"repository":{"type":"Tipo","size":"Tama\u00f1o","invalidjson":"Cadena JSON no v\u00e1lida","nofilesattached":"No se han adjuntado archivos","filepicker":"Selector de archivos","logout":"Salir","nofilesavailable":"No hay archivos disponibles","norepositoriesavailable":"Lo sentimos, ninguno de sus repositorios actuales puede devolver archivos en el formato solicitado.","fileexistsdialogheader":"El archivo existe","fileexistsdialog_editor":"Un archivo con el mismo nombre ya se ha adjuntado al texto que est\u00e1 editando.","fileexistsdialog_filemanager":"Un archivo con ese nombre ya ha sido adjuntado","renameto":"Cambiar el nombre a \"{$a}\"","referencesexist":"Existen {$a} archivos de alias\/atajos que emplean este archivo como su or\u00edgen","select":"Seleccionar"},"admin":{"confirmation":"Confirmaci\u00f3n"}};
+//]]>
+</script>
+<script type="text/javascript">
+//<![CDATA[
+var navtreeexpansions4 = [{"id":"expandable_branch_30_125","key":"125","type":30},{"id":"expandable_branch_30_126","key":"126","type":30},{"id":"expandable_branch_30_128","key":"128","type":30},{"id":"expandable_branch_30_130","key":"130","type":30},{"id":"expandable_branch_30_127","key":"127","type":30},{"id":"expandable_branch_30_129","key":"129","type":30},{"id":"expandable_branch_0_mycourses","key":"mycourses","type":0}];
+//]]>
+</script>
+<script type="text/javascript">
+//<![CDATA[
+YUI().use('node', function(Y) {
+M.util.load_flowplayer();
+setTimeout("fix_column_widths()", 20);
+Y.use("moodle-theme_bcu-zoom",function() {M.theme_bcu.zoom.init();
+});
+Y.use("moodle-theme_bcu-full",function() {M.theme_bcu.full.init();
+});
+function legacy_activity_onclick_handler_1(e) { e.halt(); window.open('http://colaboratorio3.org/plataforma/mod/resource/view.php?id=506&redirect=1', '', 'width=620,height=450,toolbar=no,location=no,menubar=no,copyhistory=no,status=no,directories=no,scrollbars=yes,resizable=yes'); return false; };
+Y.use("moodle-block_navigation-navigation",function() {M.block_navigation.init_add_tree({"id":"4","instance":"4","candock":false,"courselimit":"20","expansionlimit":0});
+});
+Y.use("moodle-block_navigation-navigation",function() {M.block_navigation.init_add_tree({"id":"5","instance":"5","candock":false});
+});
+M.util.help_popups.setup(Y);
+Y.use("moodle-core-popuphelp",function() {M.core.init_popuphelp();
+});
+Y.use("moodle-filter_mathjaxloader-loader",function() {M.filter_mathjaxloader.configure({"mathjaxconfig":"\nMathJax.Hub.Config({\n    config: [\"Accessible.js\", \"Safe.js\"],\n    errorSettings: { message: [\"!\"] },\n    skipStartupTypeset: true,\n    messageStyle: \"none\"\n});\n","lang":"es"});
+});
+ M.util.js_pending('random591c90bb95fa65'); Y.on('domready', function() { M.util.js_complete("init");  M.util.js_complete('random591c90bb95fa65'); });
+Y.on('click', legacy_activity_onclick_handler_1, "#action_link591c90bb95fa62", null);
+Y.on('click', legacy_activity_onclick_handler_1, "#action_link591c90bb95fa64", null);
+
+});
+//]]>
+</script>
+
+</div>
+</body>
+</html>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
